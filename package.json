@@ -19,6 +19,8 @@
   "homepage": "https://github.com/aehaq/dnd-shop-app#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "require": "^2.4.20",
     "sequelize": "^5.21.1"
   }
 }
