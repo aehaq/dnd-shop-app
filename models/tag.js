@@ -8,6 +8,7 @@ module.exports = function(sequelize, DataTypes) {
 
     Tag.associate = models => {
       Tag.belongsToMany(models.Weapon, {
+        //   as: "a",
           through: models.WeaponTag
         })
     }

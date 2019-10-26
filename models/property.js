@@ -18,7 +18,7 @@ module.exports = function(sequelize, DataTypes) {
 
     Property.associate = models => {
       Property.belongsToMany(models.Weapon, {
-          as: "a",
+        //   as: "a",
           through: models.WeaponProperty
         })
     }

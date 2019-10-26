@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
     
-var WeaponTag = sequelize.define('weapontag', {
+var WeaponTag = sequelize.define('WeaponTag', {
     weaponId: {
       type: DataTypes.STRING,
       primaryKey: true
